@@ -14,7 +14,7 @@ COPY ['.' , "/usr/src/"]
 WORKDIR /usr/src
 
 # RUN ejecuta el comando npm install 
-RUN npm install --production
+RUN npm install
 
 # [<ubicacion de los archivos a copiar>, <destino donde van a quedar los archivos copiados>]
 COPY [".", "/usr/src/"]
