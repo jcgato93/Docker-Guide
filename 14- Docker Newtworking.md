@@ -55,3 +55,8 @@ MONGO_URL : es la variable de entorno que utiliza la aplicacion y donde <strong>
 - Por ultimo debemos conectar el contenedor creado de la aplicacion a la misma red del contenedor de mongo
 
         $docker network connect [red] [contenedor]
+
+
+## Borrar una red
+
+    $docker network rm [nombre red]
